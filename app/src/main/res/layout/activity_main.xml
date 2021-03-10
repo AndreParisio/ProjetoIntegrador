@@ -9,11 +9,19 @@
         tools:context=".MainActivity">
     <LinearLayout android:layout_width="match_parent"
                   android:gravity="center"
+                  android:orientation="vertical"
                   android:layout_height="match_parent">
 
         <ImageView android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    android:src="@drawable/ic_launcher_foreground"
+        />
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Ir para outra tela"
+                android:textAllCaps="false"
+                android:id="@+id/btnoutratela"
         />
     </LinearLayout>
 
